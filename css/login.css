@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+.containerPrincipal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* este hace que el elemento del div sea flexible*/ 
+    align-items:center;
+    width: 100vw; /* para que ocupe el 100 porciento de la pagina */ 
+    height: 100vh;
+    background-image: url(./imagendellogin/raulsssssss.png);
+    background-position: center center;
+    background-repeat: no-repeat;/* para que no se repita la imagen */
+    background-size: cover;/* para que ocupe todo el espacio dispobible */
+    gap: 60px ;
+    color: #080000;
+    
+    
+
+    
+}
+input{
+    outline: 0;
+    background-color: #e4a0a0;
+    width: 100%;
+    border: 1;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 20px;
+    color:black;
+    
+    
+
+}
+.boton{
+    font-family: sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background-color: #140101;
+    width: 100%;
+    border: 0;
+    padding: 15px;
+    color: #f8f5f5;/*color de la letras */
+    font-size: 14px;
+    -webkit-transition: all 0.3 ease;
+    transition: all 0.3 ease;
+    cursor: pointer;
+    padding: 10px 20px;
+    
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    position: relative;
+    z-index: 1;
+    background-color: #ffff;
+    max-width: 360px;
+    padding: 45px;
+    text-align: center;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2)0 5px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    font-size: 2rem;
+    
+   
+}
+::placeholder{
+    color: #0c0c0c;
+}
+.boton:hover{
+    background-color:rgb(11, 77, 219);
+}
+@media(max-width:991px){
+    body{
+        padding: 30px;
+
+    }
+    .form{
+        padding: 50px 30px;
+        width: 100%;
+    }
+    input{
+        padding: 15px ;
+    }
+
+
+}
+.box{
+    padding: 12px;
+    margin: 20px;
+    width: 65%;
+    border: none;
+    border-radius: 20px;
+
+}

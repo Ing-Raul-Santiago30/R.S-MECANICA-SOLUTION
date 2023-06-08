@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Formulario de contacto</title>
+        <link href="css/estilo.css" rel="stylesheet" />
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        
+        <form action="https://formsubmit.co/raulsantiago3009@gmail.com" method="POST">
+            <h2>Contacto</h2>
+            <div class="input-group">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Nombre" required="true">
+
+                <label for="phone">Telefono</label>
+                <input type="tel" name="phone" id="phone" placeholder="Telefono" required="true">
+
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email" required="true">
+
+                <label for="message">Mensaje</label>
+                <textarea name="message" id="message" cols="30" rows="5" placeholder="Mensaje"></textarea>
+
+                <div class="form-txt">
+                    <a href="#">politica de privacidad</a>
+                    <a href="#">terminos y condiciones</a>
+
+                </div>
+                
+                <input class="btn"type="submit" value="enviar">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/">
+                <input type="hidden" name="_next" value="http://127.0.0.1:5500/contacto.html">
+                <input type="hidden" name="_captcha" value="false">
+
+            </div>
+            <ul class="pagination">
+                <li class="page-item"><a class="page-link" href="index.html">pagina anterior</a></li>
+                
+              </ul>
+            </nav>
+        </form>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
